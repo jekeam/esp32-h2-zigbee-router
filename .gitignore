@@ -1,0 +1,22 @@
+# Arduino / ESP32 build output
+build/
+Build/
+build-*/
+*.bin
+*.elf
+*.map
+*.hex
+
+# C/C++ generated files
+*.d
+*.o
+*.obj
+*.a
+*.lib
+
+# Local editor / temp files
+*.log
+*.tmp
+*.bak
+*.swp
+.vscode/
