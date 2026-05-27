@@ -175,7 +175,7 @@ void setup() {
   Serial.flush();
 
   zbExtender.onIdentify(identify);
-  zbExtender.setManufacturerAndModel("Custom", "ESP32H2_Router_20dBm");
+  zbExtender.setManufacturerAndModel("Custom", "ESP32-H2 ZigBee Router");
   zbExtender.setPowerSource(ZB_POWER_SOURCE_MAINS);
 
   Zigbee.addEndpoint(&zbExtender);
